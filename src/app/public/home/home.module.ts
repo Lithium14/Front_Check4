@@ -5,7 +5,8 @@ import { HomeFeaturesCardComponent } from './home-features-card/home-features-ca
 import { HomeFeatureComponent } from './home-feature/home-feature.component';
 import { HomeBannerComponent } from './home-banner/home-banner.component';
 import { HomeComponent } from './home/home.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+
 
 
 @NgModule({
