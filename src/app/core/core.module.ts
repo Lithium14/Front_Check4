@@ -1,3 +1,4 @@
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FooterComponent } from './components/footer/footer.component';
@@ -8,12 +9,17 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 
 @NgModule({
   declarations: [
-    FooterComponent,
     NavBarComponent,
+    FooterComponent,
     PageNotFoundComponent
   ],
   imports: [
+    BrowserAnimationsModule,
     CommonModule
+  ],
+  exports: [
+    NavBarComponent,
+    FooterComponent,
   ]
 })
 export class CoreModule { }

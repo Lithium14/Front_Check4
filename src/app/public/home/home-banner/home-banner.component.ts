@@ -13,7 +13,7 @@ export class HomeBannerComponent implements OnInit {
   ngOnInit() {
   }
 
-  public navigateToDashboard(): void {
-    this.router.navigate(['app/dashboard']);
+  public navigateToLogin(): void {
+    this.router.navigate(['/login']);
    }
 }
