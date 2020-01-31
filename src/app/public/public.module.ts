@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register/register.component';
 
 
 
+
 @NgModule({
   declarations: [LoginComponent, RegisterComponent],
   imports: [
